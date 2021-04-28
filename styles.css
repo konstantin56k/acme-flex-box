@@ -1,0 +1,41 @@
+body {
+    font-family: Helvetica Neue,Helvetica,sans-serif;
+}
+
+nav {
+    background-color: #3590ff;
+    display: flex;
+    height: 8%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 1rem;
+}
+
+#nav-opt {
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+#form form {
+    display: flex;
+    flex-direction: column;
+}
