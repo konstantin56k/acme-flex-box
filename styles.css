@@ -1,3 +1,7 @@
+* {
+    
+}
+
 body {
     font-family: Helvetica Neue,Helvetica,sans-serif;
 }
@@ -27,15 +31,51 @@ a {
     align-items: center;
 }
 
+#create-user {
+    text-align: center;
+}
+
 #form {
     display: flex;
     border: 1px solid black;
     flex-direction: column;
     width: 50%;
-    justify-content: center;
+
+
 }
 
 #form form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-card {
+    display: flex;
+    border: black 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% / 3 - 50px);
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .user-card {
+        width: 100%;
+    }
+
+    #home {
+        width: 100%;
+    }
+    
+    #nav-opt {
+        width: 100%;
+    }
 }
